@@ -32,7 +32,7 @@ Extract this ZIP to a new folder, for example `Documents\TECM_Python`, and open 
 Run these commands in PowerShell from the folder containing `app.py`:
 
 ```powershell
-py -3.13 -m venv .venv
+py -3.15 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 .\.venv\Scripts\python.exe -m scripts.manage init
 .\.venv\Scripts\python.exe -m scripts.manage bootstrap
