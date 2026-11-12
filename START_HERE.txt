@@ -1,0 +1,20 @@
+TECM — first working Python release
+
+1. Open the extracted TECM folder in VS Code.
+2. Open Terminal > New Terminal (PowerShell).
+3. Run these commands one at a time:
+
+py -3.13 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe -m scripts.manage init
+.\.venv\Scripts\python.exe -m scripts.manage bootstrap
+.\.venv\Scripts\python.exe -m streamlit run app.py
+
+Bootstrap asks you to choose your platform administrator credentials.
+Open the Local URL printed in the terminal, usually http://localhost:8501.
+Sign in, create your organisation and its administrator, sign out, and sign
+in with that organisation administrator. Use Sample data to load clearly
+labelled synthetic examples, or register your own substation and transformer.
+
+No default password exists. Nothing is published by these commands.
+See README.md for features, limitations, tests, backup and hosting.

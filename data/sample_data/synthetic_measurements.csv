@@ -1,0 +1,4 @@
+﻿asset_code,parameter_code,observed_at,value,unit,is_simulated
+DEMO-T1,top_oil,2026-11-12T09:00:00+03:00,76,°C,True
+DEMO-T1,winding,2026-11-12T09:00:00+03:00,88,°C,True
+DEMO-T2,loading,2026-11-12T09:00:00+03:00,61,%,True
